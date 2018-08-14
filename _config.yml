@@ -1,1 +1,16 @@
-theme: jekyll-theme-minimal
+---
+title: UltimateAppLockerBypassList
+
+exclude: ['/Gemfile', '/Makefile', '/README.md', '/CONTRIBUTING.md']
+
+permalink: pretty
+
+collections:
+  ultimateapplockerbypasslist:
+    output: true
+
+defaults:
+  - scope:
+      path: '_ultimateapplockerbypasslist'
+    values:
+      layout: bin
